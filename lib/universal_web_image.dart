@@ -72,8 +72,8 @@ class _UniversalWebImageState extends State<UniversalWebImage> {
       context: context,
       imageUrl: widget.imageUrl,
       // TODO: How can be get pixels of the image?
-      width: widget.width ?? 100,
-      height: widget.height ?? 100,
+      width: widget.width,
+      height: widget.height,
     );
   }
 
